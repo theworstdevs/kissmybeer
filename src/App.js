@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.scss';
+import ProductPage from './ProductPage';
 
 class App extends Component {
+<<<<<<< HEAD
   render() {
     return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-          Hello
             Edit <code>src/App.js</code> and save to reload.
           </p>
           <a
@@ -24,6 +23,13 @@ class App extends Component {
       </div>
     );
   }
+=======
+    render() {
+        return (
+            <ProductPage/>
+        );
+    }
+>>>>>>> 229c2774838ca26e28d6050d7d03148b4c2199ee
 }
 
 export default App;
