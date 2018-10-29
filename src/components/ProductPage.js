@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
-import './App.scss';
+import '../App.scss';
+
 
 class ProductPage extends Component {
     render() {
         return (
-            <h1>Elo Elo Elo</h1>
+            <section className="container flex">
+                <div className="box"></div>
+                <div className="box"></div>
+                <div className="box"></div>
+                <div className="box"></div>
+            </section>
         );
     }
 }
