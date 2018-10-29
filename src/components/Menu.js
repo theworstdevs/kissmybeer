@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from "../img/logo.jpeg"
+import logo from "../img/logo.png"
 
 class Menu extends React.Component {
    constructor(props) {
