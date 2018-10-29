@@ -6,7 +6,6 @@
 .container {
   width: 100%;
   max-width: 1200px;
-  //height: 100vh;
   margin: 0 auto;
 }
 .flex {
@@ -17,4 +16,23 @@
 }
 .flex-column {
   flex-direction: column;
+}
+#menu {
+  background-color: black;
+  nav {
+    justify-content: space-around;
+  }
+  ul {
+    list-style: none;
+    li {
+      padding-left: 20px;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  a:hover {
+    color: gold;
+  }
 }
