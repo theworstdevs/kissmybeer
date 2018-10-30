@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import logo from "../img/logo.png"
+import logo from "../img/logo.png";
+import shoppingCart from "../img/shopping-cart.png";
+import '../App.scss';
 
 class Menu extends React.Component {
    constructor(props) {
@@ -10,13 +12,22 @@ class Menu extends React.Component {
      return (
          <section id="menu">
              <nav className="container flex">
+
+                 <div className="left-section">
                  <img src={logo} alt=""/>
+                 </div>
+
+                 <div className="right-section flex">
                  <ul className="flex">
                      <li><a href="">Katalog</a></li>
                      <li><a href="">O nas</a></li>
                      <li><a href="">Nowości</a></li>
                      <li><a href="">Kontakt</a></li>
                  </ul>
+                 <img src={shoppingCart} alt=""/>
+                 <h4>l.jakimov</h4>
+
+                 </div>
              </nav>
          </section>
 

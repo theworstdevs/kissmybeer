@@ -1,0 +1,94 @@
+body{
+  overflow-x:hidden;
+}
+
+.single-slide {
+  img {
+    margin: 0 auto;
+    width: 100%;
+    height:auto;
+    position:relative;
+  }
+  .desc{
+    position: absolute;
+    z-index: 1;
+    right:60px;
+    display:flex;
+    flex-direction: column;
+    width:800px;
+  }
+
+  @media all and (min-width:865px) and (max-width:1125px) {
+    .desc {
+      width:600px;
+    }
+  }
+
+  @media all and (min-width:700px) and (max-width:865px) {
+    .desc {
+      width:500px;
+    }
+  }
+
+  @media all and (min-width:300px) and (max-width:410px) {
+    .desc {
+      width:180px;
+    }
+  }
+
+  @media all and (min-width:410px) and (max-width:700px) {
+    .desc {
+      width:250px;
+    }
+  }
+
+  h1, p{
+      float:right;
+      margin:10px 0;
+    }
+
+  h1{
+    font-size:4vw;
+  }
+  p{
+    font-weight: 300;
+    font-size:1.4vw;
+    line-height: 27px;
+  }
+
+  @media all and (max-width:740px) {
+    p{
+      font-weight: 300;
+      font-size:10px;
+      line-height: 15px;
+    }
+  }
+
+  @media all and (min-width:300px) and (max-width:740px) {
+    p{
+      font-weight: 300;
+      font-size:7px;
+      line-height: 10px;
+    }
+    h1,p{
+      margin:0;
+    }
+  }
+
+}
+
+.benefits{
+  justify-content: space-around;
+  .icon{
+    width:300px;
+    margin:20px 10px;
+    text-align: center;
+    padding:10px 0;
+    h2{
+      margin:10px 0;
+    }
+    img{
+      width:90px;
+    }
+  }
+}

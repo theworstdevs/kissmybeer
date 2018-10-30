@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
-import ProductPage from './components/ProductPage';
 import Menu from "./components/Menu";
+import Homepage from "./components/Homepage";
+import GoogleMaps from "./components/GoogleMaps";
+
 
 class App extends Component {
 
@@ -8,7 +10,8 @@ class App extends Component {
         return (
             <div>
                 <Menu/>
-                <ProductPage/>
+                <Homepage/>
+                <GoogleMaps/>
             </div>
         );
     }
