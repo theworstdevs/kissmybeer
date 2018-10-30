@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import ProductPage from './components/ProductPage';
 import Menu from "./components/Menu";
+import Catalogue from "./components/Catalogue"
 
 class App extends Component {
 
@@ -8,7 +9,7 @@ class App extends Component {
         return (
             <div>
                 <Menu/>
-                <ProductPage/>
+                <Catalogue/>
             </div>
         );
     }

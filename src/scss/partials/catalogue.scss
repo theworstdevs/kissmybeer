@@ -1,0 +1,43 @@
+#search{
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh;
+  margin-top: 3px;
+  #search_section_input{
+    flex-basis: 20%;
+    padding: 5px;
+    background-color: black;
+    height: 100%;
+    input{
+      width: 100%;
+      height: 5vw;
+      font-size: 2vw;
+    }
+    #search_input_select{
+      width: 100%;
+      margin-top: 10px;
+    }
+
+  }
+  #search_displayArea{
+    flex-basis: 70%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    .search_itemBox{
+      width: 15vw;
+      height: 15vw;
+      border: 2px solid gold;
+      margin: 10px;
+      transition: 1s;
+      border-radius: 5px;
+    }
+    .search_itemBox:hover{
+      background-color: black;
+      color: gold;
+      cursor: pointer;
+    }
+  }
+
+
+}
